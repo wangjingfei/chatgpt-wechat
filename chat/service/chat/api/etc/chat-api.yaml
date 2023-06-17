@@ -10,14 +10,14 @@ RedisCache:
     Pass: "123456"                                  # redis缓存密码
 
 WeCom:
-  CorpID: "wwxxxxxxxxxxxxxxxxxxxx"                  # 企业微信CorpID
+  CorpID: "wwa9e91f92c9f095eb"                  # 企业微信CorpID
   DefaultAgentSecret: "55sO-xxxxxxxxxxxxxxxxxxU"    # 企业微信应用 Secret
-  Token: "xxxxxxxxxx"                               # 企业微信应用/客服消息 Token
-  EncodingAESKey: "xxxxxxxxxxxxxxxx"                # 企业微信应用/客服消息 EncodingAESKey
+  Token: "FkeXqbBVVJHYIqPsTj"                               # 企业微信应用/客服消息 Token
+  EncodingAESKey: "w9mhuGM1muWdExAE7qoGTp5TlJE4Bt22aNzfj6MSull"                # 企业微信应用/客服消息 EncodingAESKey
   Model: "gpt-3.5-turbo-16k"                        # openai 模型（可选）默认为 gpt-3.5-turbo 可选[gpt-3.5-turbo-16k, gpt-4,gpt-4-32k, text-davinci-003]
 
 OpenAi:
-  Key: "xxxxxxxxxxxxxxxxxxxxx"                      # OpenAi Key
+  Key: "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"                      # OpenAi Key
   MaxToken: 7500                                    # 一次会话能响应内容的最大 token
   TotalToken: 15800                                 # 一次对话 openai 能处理的最大 token 数量 gpt3-3.5-turbo:4096 gpt-3.5-turbo-16k:16384 / gpt-4:8192 /gpt-4-32k:32768
   Temperature: 0.8                                  # 对话的创造性，当其逼近与0时，其响应的结果更加死板，当其趋近于1时，其对话更加符有跳跃与创造力
