@@ -11,7 +11,7 @@ RedisCache:
 
 WeCom:
   CorpID: "wwa9e91f92c9f095eb"                  # 企业微信CorpID
-  DefaultAgentSecret: "55sO-xxxxxxxxxxxxxxxxxxU"    # 企业微信应用 Secret
+  DefaultAgentSecret: "p4UZuJ3YMr59mwK3UpD0InJQwssotkYAPs-CoYpX9yw"    # 企业微信应用 Secret
   Token: "FkeXqbBVVJHYIqPsTj"                               # 企业微信应用/客服消息 Token
   EncodingAESKey: "w9mhuGM1muWdExAE7qoGTp5TlJE4Bt22aNzfj6MSull"                # 企业微信应用/客服消息 EncodingAESKey
   Model: "gpt-3.5-turbo-16k"                        # openai 模型（可选）默认为 gpt-3.5-turbo 可选[gpt-3.5-turbo-16k, gpt-4,gpt-4-32k, text-davinci-003]
